@@ -15,7 +15,6 @@ ACTUAL BEHAVIOUR IN EAS-BUILD.
 2. however there is no token. null is shown for token
 
 Note:
-you will ofcourse need to generate and use your own google.json file. i have not uploaded mine.
 This can only be tested in stand alone apps.
 
 
