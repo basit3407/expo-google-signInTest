@@ -1,0 +1,15 @@
+{
+  "cli": {
+    "version": ">= 0.35.0"
+  },
+  "build": {
+    "production": {
+      "android": {
+        "buildType": "apk"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}
