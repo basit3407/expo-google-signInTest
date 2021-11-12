@@ -1,18 +1,30 @@
 import React from "react";
-import { StyleSheet, Button } from "react-native";
+import { StyleSheet, Button, Text, View } from "react-native";
 import * as GoogleSignIn from "expo-google-sign-in";
 
 export default function App() {
+  const [googleToken, setGoogleToken] = React.useState();
+
+  const token = googleToken || "null";
+
   const handlePress = async () => {
     await GoogleSignIn.initAsync();
 
     const { user } = await GoogleSignIn.signInAsync();
-    console.log("user in google = ", user); // ----> user.auth.token is null
-    const token = user?.auth?.idToken; //---->null
-    console.log("token in google = ", token);
+    const googleToken = user.auth.idToken; //---->null
+    setGoogleToken(googleToken);
   };
 
-  return <Button title="Google SignIn" onPress={handlePress} />;
+  return (
+    <View style={styles.container}>
+      <Button
+        style={styles.button}
+        title="Google SignIn"
+        onPress={handlePress}
+      />
+      <Text>token = {token}</Text>
+    </View>
+  );
 }
 
 const styles = StyleSheet.create({
@@ -21,5 +33,8 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff",
     alignItems: "center",
     justifyContent: "center",
+  },
+  button: {
+    width: "50%",
   },
 });
