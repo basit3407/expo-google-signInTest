@@ -4,7 +4,7 @@ Purpose of this project is to test the native google using https://www.npmjs.com
 
 EXPECTED BEHAVIOUR:
 1. on clicking the button modal will show which will have the google email addresses.
-2. on tapping the email address we will get the idToken of the use which was tapped. This token will be console logged.
+2. on tapping the email address we will get the idToken of the user which was tapped. This token will be console logged.
 
 ACTUAL BEHAVIOUR IN CLASSIC-EXPO BUILD.
 1. modal is shown as expected
