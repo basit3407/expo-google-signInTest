@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "261100673888",
+    "project_id": "salah-tracker-317903",
+    "storage_bucket": "salah-tracker-317903.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:261100673888:android:5d08edec0a74d12671dc05",
+        "android_client_info": {
+          "package_name": "com.basit3407.expogooglesignInTest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "261100673888-j8i1h2mj6q552bjau5pskvdvccvmgata.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8AE8Kw9LnKh7hEMRX-P_AtYgau8NCXEM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "261100673888-j8i1h2mj6q552bjau5pskvdvccvmgata.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:261100673888:android:f2d8f8482b62785d71dc05",
+        "android_client_info": {
+          "package_name": "com.bm.islamicpraytracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "261100673888-t38v4fp900dt5963tcs4709agdal5pqs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bm.islamicpraytracker",
+            "certificate_hash": "defe5e7ea241cea766bc41c5a1325b2392b80864"
+          }
+        },
+        {
+          "client_id": "261100673888-j8i1h2mj6q552bjau5pskvdvccvmgata.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8AE8Kw9LnKh7hEMRX-P_AtYgau8NCXEM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "261100673888-j8i1h2mj6q552bjau5pskvdvccvmgata.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
