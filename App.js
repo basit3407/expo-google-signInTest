@@ -11,7 +11,7 @@ export default function App() {
     await GoogleSignIn.initAsync();
 
     const { user } = await GoogleSignIn.signInAsync();
-    const googleToken = user.auth.idToken; //---->null
+    const googleToken = user.auth.idToken;
     setGoogleToken(googleToken);
   };
 
