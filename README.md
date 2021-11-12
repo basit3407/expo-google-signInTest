@@ -10,8 +10,8 @@ ACTUAL BEHAVIOUR IN CLASSIC-EXPO BUILD.
 1. modal is shown as expected
 2. token is console logged as expected
 
-ACTUAL BEHAVIOUR IN EAS-BUILD
-1.modal is shown as expected
+ACTUAL BEHAVIOUR IN EAS-BUILD.
+1. modal is shown as expected
 2. however there is no token. null is console logged.
 
 Note:
