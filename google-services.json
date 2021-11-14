@@ -14,6 +14,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "261100673888-4b371nh446n6jbm3mv1lu29qr0llbqa5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.basit3407.expogooglesignInTest",
+            "certificate_hash": "68e4466292325295226f1568e2f2f9ea59f86d38"
+          }
+        },
+        {
           "client_id": "261100673888-j8i1h2mj6q552bjau5pskvdvccvmgata.apps.googleusercontent.com",
           "client_type": 3
         }
